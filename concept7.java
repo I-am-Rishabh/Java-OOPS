@@ -54,7 +54,11 @@ public class Main {
 
 
 //here in abstract class we cannot create its object
-//
+/**
+Abstraction in Java is the process of hiding the implementation details and exposing only 
+the essential features or functionalities of an object or a concept. It allows you to focus 
+on what an object does rather than how it does it.
+*/
  abstract class Animal{
 
     Animal(){
