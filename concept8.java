@@ -1,6 +1,12 @@
 //abstraction type-2 via Interfaces 
 // interfaces don't have constructors 
+/**
+In object-oriented programming (OOP), an interface is a blueprint
+that defines a set of abstract methods (methods without a body) 
+that any class implementing the interface must provide. An interface 
+is used to specify what a class must do, but not how it should do it.
 
+    */
 interface Animal{
     //all properties of interfaces are public, static and final by default
     int eyes=2;//this is common for all the classes implementing Animal
