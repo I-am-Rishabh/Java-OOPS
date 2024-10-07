@@ -1,4 +1,6 @@
 // Base class Person
+// Polymorphism part 2 
+
 class Person {
     String name;
     int age;
