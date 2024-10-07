@@ -2,7 +2,9 @@
 
 class Student{
     String name;
-    static String school;// we can specify it  for any new obj it is generalized for obj 
+    // we set the value of this from direct this class and also from its object .. any change  will change the value in the class also 
+    static String school;// The static keyword in Java is used to indicate that a particular field, method, or nested class belongs 
+    //to the class itself rather than to instances of the class (objects).
     
     public static void changeSchool(){
         school="newshool";
