@@ -18,7 +18,7 @@ class Student extends Person {
     @Override
     public void printInfo() {
         // Calling the overridden method from the superclass
-        super.printInfo();
+        super.printInfo();//not neccesary to call.
         System.out.println("School: " + school);
     }
 }
